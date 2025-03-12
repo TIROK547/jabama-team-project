@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import aparteman_view_royayee,aparteman_sargarmi
+from .views import aparteman_view_royayee,aparteman_sargarmi,aparteman_list
 
 urlpatterns = [
     path("view-royayee", aparteman_view_royayee),
-    path("sargarmi", aparteman_sargarmi)
+    path("sargarmi", aparteman_sargarmi),
 ]

@@ -1,3 +1,6 @@
 from django.contrib import admin
+from villa.models import User, Owner, Villa
 
-# Register your models here.
+admin.site.register(User)
+admin.site.register(Owner)
+admin.site.register(Villa)
